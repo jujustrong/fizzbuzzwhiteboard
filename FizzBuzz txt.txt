@@ -1,0 +1,26 @@
+FizzBuzz
+
+
+Public void fizzBuzz (int num)
+{
+	for(var i = 1; i<= num; i++)
+	{
+		if(i % 3 == 0 && i % 5 == 0)
+		{
+			console.WriteLine(“FizzBuzz”);
+		}
+		else if (i % 3 == 0)
+		{
+			console.WriteLine(“Fizz”);
+		}
+		else if (i % 5 == 0)
+		{
+			console.WriteLine(“Buzz”);
+		}
+		else
+			console.WriteLine(i);
+
+	}
+
+
+}
